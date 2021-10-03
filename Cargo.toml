@@ -1,5 +1,5 @@
 [package]
-name = "TEMPLATE_PLUGIN"
+name = "RECT_ACT"
 version = "0.1.0"
 authors = ["Lorenzo Panieri <panierilorenzo@gmail.com>"]
 edition = "2018"
@@ -12,7 +12,7 @@ dsp_lab = {git = "https://github.com/Flux-Audio/dsp_lab.git", branch="master"}
 toml = "~0.5.8"
 
 [lib]
-name = "TEMPLATE_PLUGIN_v0_1_0_dev"
+name = "RECT_ACT_v0_1_0_dev"
 crate-type = ["cdylib"]
 
 [profile.dev]

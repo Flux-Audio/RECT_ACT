@@ -38,7 +38,6 @@ use crate::user_code::process_effects::EffectProcessor;
 
 
 // internal dependencies
-mod algorithms;     // contains support structs and functions for processing
 mod parameter_manager;
 mod voice_allocator;
 mod user_code;
@@ -87,7 +86,7 @@ impl Plugin for VstLabPlugin {
 
         // NOTE: remember to change these!
         Info {
-            name: "TEMPLATE_PLUGIN".to_string(),
+            name: "RECT_ACT".to_string(),
             vendor: "Flux-Audio".to_string(),
             unique_id: 0,       // NOTE: by own convention, this should be the Adler-32
                                 // hash of name + version, i.e. `TEMPLATE_PLUGIN v0.1.x`
